@@ -1,0 +1,81 @@
+.services {
+    margin-top: 15px;
+    margin: 10px;
+    border: 0.5px solid rgb(204, 204, 204) ;
+    padding: 25px;
+    border-radius: 2rem;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.what {
+    color: #a100f2ff;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-family: 'Patua One', cursive;
+}
+
+.title {
+    margin-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+ 
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: rgb(238, 237, 237);
+    padding: 60px;
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+  overflow: hidden;
+}
+
+.title:after {
+    content: ""; 
+    display: block; 
+    margin: 0px auto ;
+    width: 6%; 
+    padding-top: 20px; 
+    border-bottom: 3px solid#a100f2ff; 
+}
+
+.item:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.title-ser {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragh {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .service-item {
+        display: block;
+    }
+    .item {
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .title:after {
+        width: 20%; 
+    }
+  }
+  

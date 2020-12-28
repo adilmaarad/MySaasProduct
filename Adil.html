@@ -1,0 +1,132 @@
+<html><head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./image/favicon.png.jfif">
+    <meta name="theme-color" content="#a100f2ff">
+    <link rel="manifest" href="./manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Maarad Adil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&amp;family=Roboto:ital,wght@0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/first.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/service.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/about.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/contact.css">
+    
+
+<body>
+  
+
+    <div class="header">
+        <div></div>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home </a>
+        <a href="#service">Service</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="first">
+        <div class="name">
+            <p class="paragh">Hello </p>
+            <p class="title-name">I'm <span>Maarad</span> Adil</p>
+            <p class="paragh">I'm a full stack javascript developer and a web designer. </p>
+            <a href="#about" class="more">See more</a>
+        </div>
+        <div class="img"> 
+            <img alt="web-dev-icon" src="image/undraw_code_inspection_bdl7.svg" class="dev-img">
+        </div>
+    </div>
+
+    <div class="services" id="service">
+        <div class="text">
+            <p class="what">WHAT I DO </p>
+            <p class="title">Services</p>
+            <p class="text">Here is Some Services Which We Provide You :  </p>
+        </div>
+        <div class="service-item">
+            <div class="item">
+                <img src="./image/design.png" alt="web">
+                <p class="title-ser">Web Design</p>
+                <p class="paragh">I design a UI and UX design <br>for mobile application<br> and websites...</p>
+            </div>
+            <div class="item">
+                <img src="./image//data.png" alt="web">
+                <p class="title-ser">Web development</p>
+                <p class="paragh">I build a responsive web <br>app and websites including <br>backend(Hosting,database <br>and analitycs etc...).</p>
+            </div>
+            <div class="item">
+                <img src="./image/smartphone.png" alt="app-dev">
+                <p class="title-ser">App Development</p>
+                <p class="paragh">I develope also mobile <br>application with a lot of<br> amazing properties. </p>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about-div">
+        <div class="about-head">
+            <p class="who">WHO I AM </p>
+            <p class="about-title">About Me</p>
+        </div>
+        <div class="about-items">
+            <div class="static">
+                <p class="about-paragh"><span>Hi,</span><br> my names Adil Maarad, I am a full stack Javascript<br>
+                     developer, I can create websites, responseve web app and <br>
+                     mobile application, also desktop app , I use Javascript <br>
+                     programming language  to create those programme but I'm also using HTML, CSS and React as Framework,<br>
+                      for the mobile application I use React Native.  </p>
+                <p class="skills">Skills:</p>
+                <p class="html-ana">HTML</p>
+                <p class="css-ana">CSS</p>
+                <p class="javascript-ana">Javascript</p>
+                <p class="react-ana">React</p>
+                <p class="react-native-ana">React Native</p>
+            </div>
+            <div><img class="about-img" alt="abou-img" src="./image/undraw_static_assets_rpm6.svg"></div>
+        </div>
+        <div class="about-time">
+            <div class="time-item"><p class="time-item-o">53<br>Project</p></div>
+            <div class="time-item"><p class="time-item-o">892<br>Work<br> Hours</p></div>
+            <div class="time-item"><p class="time-item-o">1845<br>Learning<br> Hours</p></div>
+        </div>
+    </div>
+
+    <div class="contact-div" id="contact">
+        <div class="contact-head">
+            <p class="contact-que">Do you have any project in your mind ? </p>
+            <p class="contact-title">Contact me</p>
+        </div>
+        <div class="contact-items">
+        <div class="contact-img"><img alt="contact-img" id="contact-img" class="contact-img" src="./image/undraw_Personal_text_re_vqj3.svg"></div>
+        <div class="contact-msg">
+            <form id="contact-form">
+                <p class="item-title">Name:</p>
+                <input type="text" id="name" placeholder="Full Name" name="name" required="">
+                <p class="item-title">E-mail:</p>
+                <input type="email" id="mail" placeholder="Example@gmail.com" name="mail" required="">
+                <p class="item-title">Message:</p>
+                <textarea name="message" id="message" rows="10" cols="55" placeholder="Write Message..." required=""></textarea>
+                <button class="send" id="send">SEND</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p class="footer">© Maarad Adil 2020</p>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+</body></html>

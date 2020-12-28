@@ -1,0 +1,152 @@
+.contact-div {
+    margin-top: 15px;
+    margin: 10px;
+    border: 0.5px solid rgb(204, 204, 204) ;
+    padding: 25px;
+    border-radius: 2rem;
+}
+
+.contact-items {
+    display: flex;
+    margin-top: 25px;
+}
+
+.contact-img {
+    width: 60%;
+}
+
+.contact-head {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-que {
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-family: 'Patua One' ;
+    color: #a100f2ff;
+    margin-bottom: 0px;
+}
+
+.contact-title {
+    margin-top: 3px;
+    font-size: 23px;
+    font-family: 'Patua One' ;
+    margin-bottom: 0px;
+}
+
+.contact-title:after {
+    margin-top: 0px;
+    content: ""; 
+    display: block; 
+    margin: 0px auto ;
+    width: 6%; 
+    padding-top: 20px; 
+    border-bottom: 3px solid#a100f2ff; 
+}
+
+#contact-form {
+    /* border: 0.5px solid rgb(204, 204, 204) ;
+    border-radius: 2rem;
+    padding: 20px; */
+    margin-left: 10%;
+}
+
+#contact-form input:focus {
+    outline: none;
+    border: 2px solid  #a100f2ff ;
+    border-radius: 2rem;
+    border-color: #a100f2ff;
+}
+
+#contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #a100f2ff ;
+    border-radius: 2rem;
+    border-color:#a100f2ff;
+}
+
+#contact-form input {
+    margin-left: 5px;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+    width: 400px;
+}
+
+#contact-form textarea {
+    margin-left: 5px;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    padding: 15px;
+    background-color: rgb(223, 223, 223);
+}
+
+.item-title {
+    font-size: 17px;
+    font-family: 'Patua One' ;
+}
+
+.send {
+    text-decoration: none;
+    color: #fff;
+    background-color: #a100f2ff;
+    padding: 10px;
+    border: 1px solid  #a100f2ff;
+    border-radius: 2rem;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    /* float: right; */
+    letter-spacing: 1px;
+    margin-left: 80%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+.contact-items{
+    display: block;
+}
+
+.contact-img {
+    width: 90%;
+    margin-left: 10%;
+}
+    #contact-form input {
+        width: 200px;
+    }
+    
+    #contact-form textarea {
+        width: 200px; 
+        height: 100px
+    }
+    #send {
+        text-decoration: none;
+        color: #fff;
+        background-color: #a100f2ff;
+        padding: 10px;
+        border: 1px solid  #a100f2ff;
+        border-radius: 2rem;
+        margin-top: 20px;
+        margin-left: 60%;
+        letter-spacing: 1px;
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+    .contact-title:after {
+        margin-top: 0px;
+        content: ""; 
+        display: block; 
+        margin: 0px auto ;
+        width: 20%; 
+        padding-top: 20px; 
+        border-bottom: 3px solid#a100f2ff; 
+    }
+  }
